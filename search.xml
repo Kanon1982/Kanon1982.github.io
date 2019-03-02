@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[安卓类原生ROM跳过第一次开机谷歌验证]]></title>
+    <url>%2F20190302%2FcrossGoogleVerify%2F</url>
+    <content type="text"><![CDATA[以下内容属于转载原文章网址： https://zhuanlan.zhihu.com/p/47353300 如题，可能有很多同学喜欢原生安卓的体验，但是刷入此类ROM之后无法正常进行开机设置，这就是一个教程，关于如何跳过谷歌验证，当然后面会放回来，不会少什么东西的，嗯。 以下是原文章 太长不看版 使用带有文件管理功能的recovery移动/system/priv-app/SetupWizard目录下的SetupWizard.apk到另一个地方保存，然后进入系统。 在电脑上进入小飞机，勾选[允许其他设备连入/允许来自局域网的连接]，再进入cmd/powershell输入ipconfig，查看IPv4地址，手机连接热点，编辑热点设置:高级选项-代理,选择手动，在[代理服务器主机名]填入刚才的IPv4地址，然后在[代理服务器端口]输入你在软件中配置的端口(一般是1080). 重新进入recovery将SetupWizard.apk放回原位并设置0644权限即可。 文字版 进入recovery，挂载system分区。 进入/system/priv-app/SetupWizard目录。 移动SetupWizard.apk文件夹到另一个地方。 重启进入系统 连接WiFi （电脑）进入小飞机勾选[允许其他设备连入/允许来自局域网的连接] （电脑）进入cmd/powershell输入ipconfig查看IPv4地址 进入网络详情，编辑 点击高级选项-代理 更改[无]为[手动] 在[代理服务器主机名]中填入7中的IPv4地址 在[代理服务器端口]填入软件设置的端口 重启进入recovery 将SetupWizard,apk重新移动至原文件夹 设置0644权限 重启进入系统，开始设置]]></content>
+      <categories>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>Google</tag>
+        <tag>Android</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[README.md]]></title>
     <url>%2F20190221%2FREADME-md%2F</url>
     <content type="text"><![CDATA[ABCABCABCABCABCABC12345678&lt;ul&gt; &lt;li&gt;abc&lt;/li&gt; &lt;li&gt;abc&lt;/li&gt; &lt;li&gt;abc&lt;/li&gt; &lt;li&gt;abc&lt;/li&gt; &lt;li&gt;abc&lt;/li&gt; &lt;li&gt;abc&lt;/li&gt;&lt;/ul&gt;]]></content>
